@@ -1,0 +1,160 @@
+## v1.2.0 - 27/12/2025 
+
+### Added 
+* Added image expansion in selection mode.
+
+### Fixed
+* Fixed crash when clicking a search result that was deleted after results were displayed.
+* Fixed issue where external search would re-trigger when the Search screen was recomposed.
+* Other minor UI improvements.
+
+## v1.1.9 - 24/12/2025
+
+### Fixed
+* Fixed UI bug where all results for tag only search were not viewable
+* Fixed other minor UI bugs
+
+## v1.1.8 - 18/12/2025
+
+### Added
+* Added multi-select actions
+* Added tagging support with auto-suggestions and auto-complete
+* Added setting to auto-open results in gallery
+* Search from other apps via Share/intent
+
+### Changed 
+* Auto-search when image is uploaded or selected
+
+
+## v1.1.7 – 27/10/2025
+
+### Added
+* Reverse image search by uploading images directly from the search bar
+* Reverse image search by pasting images into the search bar
+* Reverse image search by long-pressing a result or using the Media Viewer
+* Added new menu with “Refresh index” options for images and videos
+* Added backup and restore settings
+
+### Removed
+* Removed auto-organisation feature
+
+## v1.1.6 – 14/10/2025
+
+### Added
+* Added searching with images
+* Select searchable folders for images and videos
+* Unlimited search results
+* Add model downloading and importing
+* Updated search screen layout
+* Added theme related settings
+
+### Fixed
+* Fixed auto-organisation bugs
+
+## v1.1.5 – 26/09/2025
+
+### Fixed
+- Fixed bug that caused full re-indexing and duplication
+
+## v1.1.4 – 24/09/2025
+
+### Added
+- Integrated SmartScan SDK
+- Copy to clipboard in media viewer
+- SmartScan subreddit link in settings
+- Added organiser accuracy setting
+- Updates pop up
+
+### Changed
+- Minor UI changes
+
+## v1.1.3 – 20/08/2025
+
+### Changed
+- Replace Room DB with file-based index storage for faster loading
+- Minor UI changes
+
+## v1.1.2 – 08/08/2025
+
+### Changed
+- Clean, intuitive search UI with click-to-open media viewer and sharing features
+
+## v1.1.1 – 11/06/2025
+
+### Changed
+
+* Improved memory efficiency in video processing
+
+### Fixed
+
+* UI freeze when selecting destination folders with many images
+* Out-of-memory (OOM) crashes when processing/loading large images
+* Double ONNX environment teardown bug
+
+## v1.1.0 – 19/05/2025
+
+### Added
+- Video search support
+- Undo last scan feature
+- Help screen for guidance and troubleshooting
+
+### Changed
+- Refresh logic revised to avoid hard reset
+
+### Fixed
+- Reduced false positives in auto-organisation
+
+## v1.0.6 – 30/04/2025
+
+### Added
+- Option to configure index frequency (daily or weekly) in Settings  
+- Option to configure similarity threshold for search in Settings  
+
+### Changed
+- "Enable scanning" renamed to "Enable auto-organisation" for clarity
+- Minor UI updates
+
+### Removed
+- Unnecessary network info permission  
+
+## v1.0.5 – 13/04/2025
+
+### Added
+- Progress bar for indexing
+- Indicator shown when background auto-organisation is running
+- Expandable main search result
+- Grid column layout for search results
+- Enter key to search
+
+### Changed
+- Dynamic concurrency for memory management
+- Batching implemented for organisation
+- Skip images that have already been processed when organizing
+- More robust and user-friendly error handling for background jobs
+
+### Fixed
+- Text visibility in light mode on search screen
+- Fixed scan history not updating
+
+## v1.0.4 – 03/04/2025
+
+- Chained image index workers
+
+## v1.0.3 – 03/04/2025
+
+- Delete `image_embeddings` db when refreshing image index
+- Remove battery constraint on image indexer worker
+- Chained image index workers
+
+## v1.0.2 – 03/04/2025
+
+- Fix search bug that occurred due to changes in storage permissions
+- Added new feature that allows refreshing image index to handle changes in storage permissions
+- Fix bug that caused some files to be skipped in classification worker
+- Memory optimizations
+
+## v1.0.1 – 27/03/2025
+
+- Updated `build.gradle` for compatibility with F-Droid reproducible builds  
+- Updated app version display in the Settings screen  
+- Made the Setting Details screen scrollable

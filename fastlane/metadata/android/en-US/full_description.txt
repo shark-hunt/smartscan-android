@@ -1,0 +1,16 @@
+Search images and videos offline using text or by reverse image search with on-device AI.
+
+<b>Key Features</b>
+
+<b>Search Images and Videos</b>
+<ul>
+<li><b>Search Options:</b> Search using text or images.</li>
+<li><b>Tagging:</b> Add tags with auto-suggestions and auto-complete.</li>
+<li><b>Cross-App Search:</b> Search from other apps via Share.</li>
+<li><b>Gallery Access:</b> Open search results directly in the gallery.</li>
+<li><b>Folder Selection:</b> Choose which image and video folders are allowed to be indexed.</li>
+<li><b>Auto-Refresh Index:</b> Automatically refresh image and video indexes for new content.</li>
+</ul>
+
+<b>Fully On-Device</b>
+All processing is handled entirely on-device, ensuring privacy, speed, and offline functionality.
